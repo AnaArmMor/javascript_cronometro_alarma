@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronómetro Interactivo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="caja">
+        <p>Cronometro-temporizador-alarma</p>
+        <div class="container">
+            <div id="timer" class="timer">00:00</div>
+            <div class="controls">
+                <button id="startBtn">Iniciar</button>
+                <button id="stopBtn">Detener</button>
+                <button id="resetBtn">Reiniciar</button>
+            </div>
+            <div class="limit-input">
+                <label for="timeLimit">Tiempo límite (segundos):</label>
+                <input type="number" id="timeLimit" min="1" value="60">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
